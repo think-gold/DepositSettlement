@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Demage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="Class SailingClub, Event, Damage, DepositAcceptance created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SailingClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +62,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepositTest">
+  <component name="RunManager" selected="JUnit.DepositAcceptanceTest">
     <configuration name="All in DepositSettlement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositSettlement" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositAcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositSettlement" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositAcceptanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositAcceptanceTest.should_return_vale_of_deposit_if_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositSettlement" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositAcceptanceTest" />
+      <option name="METHOD_NAME" value="should_return_vale_of_deposit_if_true" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,8 +101,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepositTest" />
+        <item itemvalue="JUnit.DepositAcceptanceTest" />
         <item itemvalue="JUnit.All in DepositSettlement" />
+        <item itemvalue="JUnit.DepositAcceptanceTest.should_return_vale_of_deposit_if_true" />
+        <item itemvalue="JUnit.DepositTest" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693831689597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Class SailingClub, Event, Damage, DepositAcceptance created">
+      <created>1693848669175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693848669175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Class SailingClub, Event, Damage, DepositAcceptance created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class SailingClub, Event, Damage, DepositAcceptance created" />
   </component>
 </project>

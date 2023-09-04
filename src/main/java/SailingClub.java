@@ -3,7 +3,7 @@ import lombok.Getter;
 @Getter
 public class SailingClub {
     private String name;
-    private EntryDeposit actualEntryDeposit;
+    private float actualEntryDeposit;
     public SailingClub(String name) {
         this.name = name;
     }
