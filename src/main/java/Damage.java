@@ -3,7 +3,7 @@ import lombok.Getter;
 import java.io.File;
 
 @Getter
-public class Demage {
+public class Damage {
     private Event event;
     private int raceNr;
     private int boatNr;
@@ -13,7 +13,7 @@ public class Demage {
     private SailingClub penalizedClub;
     private double costOfDamage;
 
-    public Demage(Event event, int raceNr, int boatNr, SailingClub penalizedClub, double costOfDamage) {
+    public Damage(Event event, int raceNr, int boatNr, SailingClub penalizedClub, double costOfDamage) {
         this.event = event;
         this.raceNr = raceNr;
         this.boatNr = boatNr;

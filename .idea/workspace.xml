@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DepositStorage.java" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositAcceptance replaced by Deposit and Deposit storage classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DamageStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DepositUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SailingClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Damage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693899408732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DepositAcceptance replaced by Deposit and Deposit storage classes">
+      <created>1693901421796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693901421796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +182,7 @@
     <MESSAGE value="Class SailingClub, Event, Damage, DepositAcceptance created" />
     <MESSAGE value="tests to DepositAcceptance passed" />
     <MESSAGE value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
+    <MESSAGE value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
   </component>
 </project>
