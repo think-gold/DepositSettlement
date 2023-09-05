@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="Class SailingClub, Event, Damage, DepositAcceptance created">
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="tests to DepositAcceptance passed">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SailingClub.java" afterDir="false" />
@@ -39,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Kurs JAVA/Polska Liga Żeglarska/DepositSettlement"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Kurs JAVA/Polska Liga Żeglarska/DepositSettlement&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Kurs JAVA\Polska Liga Żeglarska\test\src\main\java" />
@@ -62,7 +64,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepositAcceptanceTest">
+  <component name="RunManager" selected="Application.DepositAcceptance">
+    <configuration name="DepositAcceptance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DepositAcceptance" />
+      <module name="DepositSettlement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in DepositSettlement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositSettlement" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,8 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepositAcceptanceTest" />
+        <item itemvalue="Application.DepositAcceptance" />
         <item itemvalue="JUnit.All in DepositSettlement" />
+        <item itemvalue="JUnit.DepositAcceptanceTest" />
         <item itemvalue="JUnit.DepositAcceptanceTest.should_return_vale_of_deposit_if_true" />
         <item itemvalue="JUnit.DepositTest" />
       </list>
@@ -131,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693848669175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests to DepositAcceptance passed">
+      <created>1693849562845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693849562845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Class SailingClub, Event, Damage, DepositAcceptance created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class SailingClub, Event, Damage, DepositAcceptance created" />
+    <MESSAGE value="tests to DepositAcceptance passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests to DepositAcceptance passed" />
   </component>
 </project>

@@ -30,4 +30,16 @@ class DepositAcceptanceTest {
         //then
         assertThat(test.get(ykpGdynia)).isEqualTo(0);
     }
+
+    @Test
+    void should_update_deposit_value_for_entry(){
+        //given
+        SailingClub legia = new SailingClub("Legia");
+        DepositAcceptance depositAcceptance = new DepositAcceptance();
+        depositAcceptance.allocateDepositToClubs(legia, false);
+        //when
+        depositAcceptance.updateEntry(legia);
+        //then
+        assertThat(depositAcceptance.getMapOfClubsAndDeposit().get(legia)).isEqualTo(15000d);
+    }
 }
