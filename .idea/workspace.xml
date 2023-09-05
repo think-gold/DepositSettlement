@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositAcceptance replaced by Deposit and Deposit storage classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DamageStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DepositUpdater.java" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositUpdater class added">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Demage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Damage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DepositUpdater.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693901421796</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DepositUpdater class added">
+      <created>1693903242276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693903242276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +188,7 @@
     <MESSAGE value="tests to DepositAcceptance passed" />
     <MESSAGE value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
     <MESSAGE value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
+    <MESSAGE value="DepositUpdater class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepositUpdater class added" />
   </component>
 </project>

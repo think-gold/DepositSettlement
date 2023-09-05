@@ -18,7 +18,11 @@ public class Deposit {        //przyjęcie zgłoszenia
     public void updateEntryDeposit(boolean isDepositPayed) {   //opcja, gdy klub najpierw się zgłasza, a pózniej opłaca depozyt
         if (isDepositPayed) this.currentDeposit = ENTRY_DEPOSIT_VALUE;
     }
-    public void updateCurrentDeposit(double costOfDamage) {
-        this.currentDeposit = currentDeposit - costOfDamage;
+
+    public void updateCurrentDeposit(Damage damage) {
+        if (damage.getPenalizedClub().equals(this.sailingClub)) {
+            this.currentDeposit = currentDeposit - damage.getCostOfDamage();
+        }
+
     }
 }
