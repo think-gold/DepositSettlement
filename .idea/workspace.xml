@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="tests to DepositAcceptance passed">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DepositStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DepositAcceptance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SailingClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DepositAcceptanceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,21 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositAcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositSettlement" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositAcceptanceTest" />
+      <option name="MAIN_CLASS_NAME" value="DepositTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepositAcceptanceTest.should_return_vale_of_deposit_if_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepositSettlement" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositAcceptanceTest" />
-      <option name="METHOD_NAME" value="should_return_vale_of_deposit_if_true" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,12 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DepositTest.should_return_vale_of_deposit_if_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositSettlement" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositTest" />
+      <option name="METHOD_NAME" value="should_return_vale_of_deposit_if_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DepositAcceptance" />
         <item itemvalue="JUnit.All in DepositSettlement" />
-        <item itemvalue="JUnit.DepositAcceptanceTest" />
-        <item itemvalue="JUnit.DepositAcceptanceTest.should_return_vale_of_deposit_if_true" />
+        <item itemvalue="JUnit.DepositTest" />
+        <item itemvalue="JUnit.DepositTest.should_return_vale_of_deposit_if_true" />
         <item itemvalue="JUnit.DepositTest" />
       </list>
     </recent_temporary>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693849562845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested">
+      <created>1693899408732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693899408732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +172,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Class SailingClub, Event, Damage, DepositAcceptance created" />
     <MESSAGE value="tests to DepositAcceptance passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests to DepositAcceptance passed" />
+    <MESSAGE value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
   </component>
 </project>
