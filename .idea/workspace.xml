@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositUpdater class added">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="method update current deposit moved to Deposit class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DepositTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Damage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DepositUpdater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Event.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit3 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DepositAcceptance">
+  <component name="RunManager" selected="JUnit.All in DepositSettlement">
     <configuration name="DepositAcceptance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DepositAcceptance" />
       <module name="DepositSettlement" />
@@ -109,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DepositAcceptance" />
         <item itemvalue="JUnit.All in DepositSettlement" />
+        <item itemvalue="Application.DepositAcceptance" />
         <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="JUnit.DepositTest.should_return_vale_of_deposit_if_true" />
         <item itemvalue="JUnit.DepositTest" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693903242276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="method update current deposit moved to Deposit class">
+      <created>1693911248637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693911248637</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +196,7 @@
     <MESSAGE value="allocateDepositToClubs, getMapOfClubs, updateEntry methods created and tested" />
     <MESSAGE value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
     <MESSAGE value="DepositUpdater class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepositUpdater class added" />
+    <MESSAGE value="method update current deposit moved to Deposit class" />
+    <option name="LAST_COMMIT_MESSAGE" value="method update current deposit moved to Deposit class" />
   </component>
 </project>

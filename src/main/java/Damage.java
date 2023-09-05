@@ -7,8 +7,8 @@ public class Damage {
     private Event event;
     private int raceNr;
     private int boatNr;
-    private String kindOfDemage;
-    private String desciption;
+    private String kindOfDamage;
+    private String description;
     File file;
     private SailingClub penalizedClub;
     private double costOfDamage;
@@ -21,12 +21,12 @@ public class Damage {
         this.costOfDamage = costOfDamage;
     }
 
-    public void setKindOfDemage(String kindOfDemage) {
-        this.kindOfDemage = kindOfDemage;
+    public void setKindOfDamage(String kindOfDamage) {
+        this.kindOfDamage = kindOfDamage;
     }
 
-    public void setDesciption(String desciption) {
-        this.desciption = desciption;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public void setFile(File file) {

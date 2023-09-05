@@ -1,7 +1,5 @@
 import lombok.Getter;
 
-import java.util.Map;
-
 @Getter
 public class Deposit {        //przyjęcie zgłoszenia
     private static final
@@ -19,10 +17,12 @@ public class Deposit {        //przyjęcie zgłoszenia
         if (isDepositPayed) this.currentDeposit = ENTRY_DEPOSIT_VALUE;
     }
 
-    public void updateCurrentDeposit(Damage damage) {
+    public void updateCurrentDeposit(Damage damage) { //pomnijszanie dpozytu po każdej szkodzie
         if (damage.getPenalizedClub().equals(this.sailingClub)) {
             this.currentDeposit = currentDeposit - damage.getCostOfDamage();
         }
-
+        //todo
+        //1. co jeśli ktoś wprowadzi nieprawidłową szkodę (nazwa klubu się nie zgadza)
+        //2. szkoda przekracza aktualną wartość depozytu
     }
 }

@@ -1,6 +1,11 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Event {
     String name;
-    Date startDateOfEvent;
+    LocalDate startDateOfEvent;
+
+    public Event(String name, LocalDate startDateOfEvent) {
+        this.name = name;
+        this.startDateOfEvent = startDateOfEvent;
+    }
 }
