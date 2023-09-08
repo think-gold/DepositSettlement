@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="method update current deposit moved to Deposit class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DepositTest.java" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositManager class created + passed tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DepositManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DepositManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Damage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Damage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DamageStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DepositStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/SailingClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +68,31 @@
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
+      <recent name="model" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in DepositSettlement">
     <configuration name="DepositAcceptance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DepositAcceptance" />
       <module name="DepositSettlement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SailingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.SailingClub" />
+      <module name="DepositSettlement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,10 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepositManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositSettlement" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositTest" />
+      <option name="MAIN_CLASS_NAME" value="DepositManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositSettlement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.DepositTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,16 +134,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DepositTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepositTest.should_return_vale_of_deposit_if_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepositSettlement" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositTest" />
-      <option name="METHOD_NAME" value="should_return_vale_of_deposit_if_true" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in DepositSettlement" />
+        <item itemvalue="JUnit.DepositManagerTest" />
+        <item itemvalue="JUnit.DepositTest (1)" />
+        <item itemvalue="Application.SailingClub" />
         <item itemvalue="Application.DepositAcceptance" />
-        <item itemvalue="JUnit.DepositTest" />
-        <item itemvalue="JUnit.DepositTest.should_return_vale_of_deposit_if_true" />
-        <item itemvalue="JUnit.DepositTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +228,7 @@
     <MESSAGE value="DepositAcceptance replaced by Deposit and Deposit storage classes" />
     <MESSAGE value="DepositUpdater class added" />
     <MESSAGE value="method update current deposit moved to Deposit class" />
-    <option name="LAST_COMMIT_MESSAGE" value="method update current deposit moved to Deposit class" />
+    <MESSAGE value="DepositManager class created + passed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepositManager class created + passed tests" />
   </component>
 </project>

@@ -1,12 +1,14 @@
+package model;
+
 import lombok.Getter;
 
 import java.io.File;
 
 @Getter
 public class Damage {
-    private Event event;
-    private int raceNr;
-    private int boatNr;
+    private final Event event;
+    private final int raceNr;
+    private final int boatNr;
     private String kindOfDamage;
     private String description;
     File file;
@@ -32,4 +34,5 @@ public class Damage {
     public void setFile(File file) {
         this.file = file;
     }
+
 }
