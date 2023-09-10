@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="DepositManager class created + passed tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DepositManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DepositManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/DamageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Damage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DamageStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DepositStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/SailingClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DepositManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Damage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DepositManagerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +64,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
       <recent name="model" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in DepositSettlement">
@@ -134,6 +126,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DepositTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

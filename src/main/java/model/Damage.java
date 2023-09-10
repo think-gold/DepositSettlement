@@ -1,9 +1,10 @@
 package model;
 
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
-
+@Slf4j
 @Getter
 public class Damage {
     private final Event event;
@@ -21,6 +22,7 @@ public class Damage {
         this.boatNr = boatNr;
         this.penalizedClub = penalizedClub;
         this.costOfDamage = costOfDamage;
+        updateDepositBasedOnDamage(this.penalizedClub, this);
     }
 
     public void setKindOfDamage(String kindOfDamage) {
@@ -34,5 +36,19 @@ public class Damage {
     public void setFile(File file) {
         this.file = file;
     }
+    public void updateDepositBasedOnDamage(SailingClub sailingClub, Damage damage) { //pomnijszanie depozytu po każdej szkodzie
+        if (damage.getPenalizedClub().equals(sailingClub)) {
+            double updatedValueOfDeposit = sailingClub
+                    .getDeposit()
+                    .getCurrentDeposit() - damage
+                    .getCostOfDamage();
 
+            if (updatedValueOfDeposit < 0) {
+                log.info("Wartość szkody przekracza aktualną wartość depozytu o: {}", updatedValueOfDeposit);
+            }
+
+            sailingClub.getDeposit()
+                    .setUpdatedDepositValue(updatedValueOfDeposit);
+        } else log.info("Szkoda dotyczy innego klubu. Sprawdź wprowadzoną nazwę klubu");
+    }
 }
