@@ -8,8 +8,8 @@ public class Event {
     private final String name;
     private LocalDate startDate;
     private LocalDate endDate;
-    private Set<SailingClub> setOfClubs;
-    private Set<Damage> setOfDamages;
+    private static Set<SailingClub> setOfClubs;
+    private static Set<Damage> setOfDamages;
 
 
     public Event(String name, LocalDate startDate, LocalDate endDate) {
@@ -20,7 +20,7 @@ public class Event {
         this.setOfDamages = new HashSet<>();
     }
 
-    public void addSailingClub (SailingClub sailingClub){
+    public static void addSailingClub (SailingClub sailingClub){
         setOfClubs.add(sailingClub);
     }
 

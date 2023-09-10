@@ -23,6 +23,7 @@ public class Damage {
         this.penalizedClub = penalizedClub;
         this.costOfDamage = costOfDamage;
         updateDepositBasedOnDamage(this.penalizedClub, this);
+        event.addDamage(this);
     }
 
     public void setKindOfDamage(String kindOfDamage) {

@@ -11,6 +11,7 @@ public class SailingClub {
     public SailingClub(String name, boolean isDepositPayed) {
         this.name = name;
         this.deposit = new Deposit(isDepositPayed);
+        Event.addSailingClub(this);
     }
 
 }
