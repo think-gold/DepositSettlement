@@ -29,4 +29,37 @@ public class Event {
     public void addDamage (Damage damage){
         setOfDamages.add(damage);
     }
+
+    public static Set<SailingClub> getSetOfClubs() {
+        return setOfClubs;
+    }
+
+    public Set<Damage> getDamagesBasedOnClub(SailingClub sailingClub){
+        Set<Damage> damages = new HashSet<>();
+        for (Damage item: setOfDamages){
+            if (item.getPenalizedClub().equals(sailingClub)){
+                damages.add(item);
+            }
+        }
+        return damages;
+    }
+
+    public Set<Damage> getDamagesBasedOnRaceNo(int raceNo){
+        Set<Damage> damages = new HashSet<>();
+        for (Damage item: setOfDamages){
+            if (item.getRaceNr() == raceNo){
+                damages.add(item);
+            }
+        }
+        return damages;
+    }
+    public Set<Damage> getDamagesBasedOnBoatNr(int boatNumber){
+        Set<Damage> damages = new HashSet<>();
+        for (Damage item: setOfDamages){
+            if (item.getBoatNr() == boatNumber){
+                damages.add(item);
+            }
+        }
+        return damages;
+    }
 }
