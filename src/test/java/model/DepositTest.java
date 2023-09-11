@@ -9,14 +9,14 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
 class DepositTest {
-    @BeforeEach
-    void setUp() {
-        Event event = new Event("Pierwsza runda", LocalDate.of(2023, 9, 1), LocalDate.of(2023, 9, 5));
-    }
+
+    YearEvents yearEvents = new YearEvents(2023);
+    Event event = new Event(yearEvents, "Pierwsza runda", LocalDate.of(2023, 9, 1), LocalDate.of(2023, 9, 5));
+
     @Test
-    void should_return_correct_EntryDeposit_when_deposit_is_payed(){
+    void should_return_correct_EntryDeposit_when_deposit_is_payed() {
         //given
-        SailingClub sailingClub = new SailingClub("YKP Szczecin", true);
+        SailingClub sailingClub = new SailingClub("YKP Szczecin", yearEvents, true);
         //when
         double depositTest = sailingClub.getDeposit().getCurrentDeposit();
         //then
@@ -24,18 +24,19 @@ class DepositTest {
     }
 
     @Test
-    void should_return_correct_EntryDeposit_when_deposit_is_not_payed(){
+    void should_return_correct_EntryDeposit_when_deposit_is_not_payed() {
         //given
-        SailingClub sailingClub = new SailingClub("YKP Gdynia", false);
+        SailingClub sailingClub = new SailingClub("YKP Gdynia", yearEvents, false);
         //when
         double depositTest = sailingClub.getDeposit().getCurrentDeposit();
         //then
         assertThat(depositTest).isZero();
     }
+
     @Test
-    void should_update_EntryDeposit(){
+    void should_update_EntryDeposit() {
         //given
-        SailingClub sailingClub = new SailingClub("YKP Gdynia", false);
+        SailingClub sailingClub = new SailingClub("YKP Gdynia", yearEvents, false);
         //when
         sailingClub.getDeposit().updateEntryDeposit(true);
         //then
