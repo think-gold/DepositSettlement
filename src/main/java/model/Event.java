@@ -10,6 +10,7 @@ public class Event {
     private LocalDate endDate;
     private static Set<SailingClub> setOfClubs;
     private static Set<Damage> setOfDamages;
+    private static YearEvents yearEvents;
 
 
     public Event(String name, LocalDate startDate, LocalDate endDate) {
@@ -18,6 +19,7 @@ public class Event {
         this.endDate = endDate;
         this.setOfClubs = new HashSet<>();
         this.setOfDamages = new HashSet<>();
+        yearEvents.addEvent(this);
     }
 
     public static void addSailingClub (SailingClub sailingClub){

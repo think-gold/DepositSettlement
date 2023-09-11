@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="Damage and sailing club automatically added to the sets when initiated (Event class)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Damage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/DamageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/DamageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" afterDir="false" />
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="tests in Deposit and Damage class added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/YearEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositSettlement" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepositSettlement" />
       <extension name="coverage">
         <pattern>
@@ -113,15 +120,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.DepositTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepositSettlement" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694360912120</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tests in Deposit and Damage class added">
+      <created>1694421678881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421678881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +242,7 @@
     <MESSAGE value="method update current deposit moved to Deposit class" />
     <MESSAGE value="DepositManager class created + passed tests" />
     <MESSAGE value="Damage and sailing club automatically added to the sets when initiated (Event class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Damage and sailing club automatically added to the sets when initiated (Event class)" />
+    <MESSAGE value="tests in Deposit and Damage class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests in Deposit and Damage class added" />
   </component>
 </project>
