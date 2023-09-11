@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
+
 @Slf4j
 @Getter
 public class Damage {
@@ -37,19 +38,17 @@ public class Damage {
     public void setFile(File file) {
         this.file = file;
     }
+
     public void updateDepositBasedOnDamage(SailingClub sailingClub, Damage damage) { //pomnijszanie depozytu po każdej szkodzie
-        if (damage.getPenalizedClub().equals(sailingClub)) {
-            double updatedValueOfDeposit = sailingClub
-                    .getDeposit()
-                    .getCurrentDeposit() - damage
-                    .getCostOfDamage();
+        double updatedDepositValue = sailingClub.getDeposit().getCurrentDeposit() - damage.getCostOfDamage();
 
-            if (updatedValueOfDeposit < 0) {
-                log.info("Wartość szkody przekracza aktualną wartość depozytu o: {}", updatedValueOfDeposit);
-            }
+        if (updatedDepositValue < 0) {
+            log.warn("Wartość szkody przekracza aktualną wartość depozytu o: {}", updatedDepositValue);
+        }
 
-            sailingClub.getDeposit()
-                    .setUpdatedDepositValue(updatedValueOfDeposit);
-        } else log.info("Szkoda dotyczy innego klubu. Sprawdź wprowadzoną nazwę klubu");
+        sailingClub
+                .getDeposit()
+                .setUpdatedDepositValue(updatedDepositValue);
+
     }
 }

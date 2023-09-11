@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="metohods form DepositManager moved to Damage and Deposit class">
+    <list default="true" id="3a3cdf20-a7a5-4b1a-9813-535bee56a118" name="Changes" comment="Damage and sailing club automatically added to the sets when initiated (Event class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Damage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Damage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/SailingClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/SailingClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/DamageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/DamageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/DepositTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="76add7ba76bfcd07feae048eade1c7b31dac35c0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,13 +73,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in DepositSettlement">
-    <configuration name="DepositAcceptance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DepositAcceptance" />
-      <module name="DepositSettlement" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SailingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.SailingClub" />
       <module name="DepositSettlement" />
@@ -150,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in DepositSettlement" />
-        <item itemvalue="JUnit.DepositManagerTest" />
         <item itemvalue="JUnit.DepositTest (1)" />
+        <item itemvalue="JUnit.DepositTest" />
+        <item itemvalue="JUnit.DepositManagerTest" />
         <item itemvalue="Application.SailingClub" />
-        <item itemvalue="Application.DepositAcceptance" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693911248637</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Damage and sailing club automatically added to the sets when initiated (Event class)">
+      <created>1694360912120</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694360912120</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +236,7 @@
     <MESSAGE value="DepositUpdater class added" />
     <MESSAGE value="method update current deposit moved to Deposit class" />
     <MESSAGE value="DepositManager class created + passed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepositManager class created + passed tests" />
+    <MESSAGE value="Damage and sailing club automatically added to the sets when initiated (Event class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Damage and sailing club automatically added to the sets when initiated (Event class)" />
   </component>
 </project>
